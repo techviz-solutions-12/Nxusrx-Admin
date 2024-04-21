@@ -1,0 +1,17 @@
+@import "../../../../scss/variables";
+@import "../../../../scss/mixins/mixins";
+
+:root {
+  .MuiPaper-root.MuiDrawer-paper {
+    background-color: $sidebarBg;
+    color: $textColor;
+  }
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.nxusLogo {
+  height: 65px;
+  width: 70px;
+}

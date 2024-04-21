@@ -1,0 +1,17 @@
+@import "../../../../scss/variables";
+@import "../../../../scss/mixins/mixins";
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+
+  .css-16lloyr-MuiBottomNavigation-root {
+    height: 30px;
+    align-items: center;
+    @include themify($themes){
+      background-color: themed("barBg");
+      color: themed("txtColor");
+    }
+  }
+}

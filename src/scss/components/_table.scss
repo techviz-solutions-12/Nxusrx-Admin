@@ -1,0 +1,38 @@
+@import "../variables";
+
+.MuiDataGrid-root {
+  @include themify($themes) {
+    color: themed("txtColor");
+  }
+  .MuiDataGrid-cell,
+  .css-f3jnds-MuiDataGrid-columnHeaders {
+    @include themify($themes) {
+      border-color: themed("tableBorder");
+    }
+  }
+  .MuiDataGrid-columnSeparator--sideRight {
+    display: none;
+  }
+  .css-yrdy0g-MuiDataGrid-columnHeaderRow {
+    background-color: $tableHeaderBg;
+    color: $textColor;
+    .MuiDataGrid-columnSeparator {
+      display: none;
+    }
+  }
+  // .MuiDataGrid-row{
+  //   background-color: $tableRowColorBg;
+  // }
+  .MuiDataGrid-virtualScrollerContent {
+    background-color: $tableRowColorBg;
+  }
+  .css-c1gd0l-MuiDataGrid-overlay {
+    background-color: transparent;
+  }
+}
+:root {
+  .css-1p5q5e5-MuiStack-root {
+    align-items: flex-end;
+    margin-top: 15px;
+  }
+}

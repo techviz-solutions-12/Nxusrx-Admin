@@ -1,0 +1,29 @@
+.productsContainer {
+  .busSelect {
+    position: relative;
+    width: 23%;
+    margin-left: 20px;
+    .busSelectCloseIcon {
+      position: absolute;
+      cursor: pointer;
+      right: 14px;
+      bottom: 15px;
+    }
+  }
+  // .MuiAutocomplete-root .MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+  //   height: 22px;
+  // }
+
+  .MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 1px;
+  }
+
+  // .MuiFormLabel-root-MuiInputLabel-root {
+  //   left: 13px;
+  //   top: -7px;
+  // }
+
+  .cusForm .MuiFormLabel-root {
+    top: -8px;
+  }
+}

@@ -1,0 +1,28 @@
+@import "../../../scss/components/card";
+//@import "../../../scss/components/modal";
+
+.modal-mui{
+  width: 560px;
+}
+.image-upload-container {
+  border: 2px dashed #007bff;
+  height: 230px;
+  width:230px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7366ff;
+  font-size: 16px;
+}
+
+.image-preview {
+  background: #ffffff;
+  z-index: 1;
+
+  img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+  }
+}

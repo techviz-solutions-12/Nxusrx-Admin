@@ -1,0 +1,40 @@
+@import '../variables';
+
+.modal-mui {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $modalColorBg;
+  min-height: 400px;
+  border-radius: 6px;
+  min-width: 400px;
+  outline: 0;
+
+  .modal-header-mui {
+    #modal-modal-title {
+      padding: 15px;
+      color: #000;
+    }
+
+    .modal-clear-btn {
+      position: absolute;
+      right: 8px;
+      top: 8px;
+    }
+  }
+
+  .modal-content-mui {
+    padding: 25px;
+  }
+
+  .modal-footer-mui {
+    padding: 15px;
+  }
+}
+
+.modal-mui {
+  .modal-content-mui-business {
+    padding: 30px;
+  }
+}
