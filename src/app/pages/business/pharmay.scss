@@ -1,0 +1,75 @@
+@import "../../../scss/components/card";
+//@import "../../../scss/components/modal";
+
+.modal-mui {
+  width: 860px !important;
+  // width: 65% !important;
+}
+
+.image-upload-container-view {
+  // height: 230px;
+  width: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7366ff;
+  font-size: 16px;
+}
+
+.image-view {
+  background: #ffffff;
+  z-index: 1;
+
+  img {
+    width: 197px;
+    height: 128px;
+    object-fit: cover;
+    border: 2px dashed #b8b8b8;
+  }
+}
+.fullscreen-exit-btn {
+  svg {
+    g {
+      fill: #fff;
+      stroke: #fff;
+    }
+  }
+}
+// .fullscreen-group {
+//   div.fullscreen-image {
+//     position: static;
+//     margin-top: 10px;
+//     margin-bottom: 20px;
+//   }
+// }
+.fullscreen-group--expanded {
+  .fullscreen-image {
+    background-color: #000;
+    img {
+      max-width: 100%;
+      height: 100%;
+      width: initial;
+      border: none;
+    }
+  }
+}
+.images{
+  display: flex;
+  li{
+    margin-top: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .modal-mui {
+    width: calc(100% - 50px) !important;
+  }
+  .image-view {
+    background: #ffffff;
+    z-index: 1;
+
+    img {
+      width: 170px;
+    }
+  }
+}

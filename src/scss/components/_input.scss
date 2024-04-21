@@ -1,0 +1,46 @@
+@import "../variables";
+
+.MuiFilledInput-root {
+  @include themify($themes) {
+    background-color: themed("inputBg");
+  }
+
+  &:before {
+    border-color: $dividerColor;
+  }
+
+  &:hover, &:active {
+    @include themify($themes) {
+      background-color: themed("inputBg");
+    }
+
+    &:not(.Mui-disabled):before {
+      border-color: $primary;
+    }
+  }
+
+  .MuiFilledInput-input {
+    @include themify($themes) {
+      color: themed("txtColor");
+    }
+  }
+}
+
+.MuiFormLabel-root {
+  @include themify($themes) {
+    color: themed("inputlabel");
+  }
+}
+
+.MuiFormLabel-root[data-shrink="true"] {
+  color: $primary;
+}
+.MuiFormControl-root .css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: $primary;
+}
+.css-gjbq6i-MuiInputBase-root-MuiFilledInput-root.Mui-focused {
+  @include themify($themes) {
+    background-color: themed("inputBg");
+    color: themed("inputlabel");
+  }
+}

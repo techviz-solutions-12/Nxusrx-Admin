@@ -1,0 +1,24 @@
+@import "variables";
+
+
+html, body {
+  height: 100%;
+  font-size: 14px;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-content-zooming: none;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body.theme-light {
+  background: #F5F4F9;
+}
+
+body.theme-dark {
+  background: #121212;
+}
+
+

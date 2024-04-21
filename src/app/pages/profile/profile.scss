@@ -1,0 +1,7 @@
+@import "../../../scss/variables/";
+
+.MuiList-root .MuiSvgIcon-root {
+  @include themify($themes) {
+    fill: themed("txtColor");
+  }
+}

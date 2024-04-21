@@ -1,0 +1,50 @@
+@import "mixins/mixins";
+
+// var declaration
+$primary: #007bff;
+$sidebarBg: #333;
+$danger: red;
+$shadowColorBlack: rgba(0, 0, 0, 0.25);
+$shadowColorGrey: rgba(213, 213, 217, 0.25);
+$shadowColorGreyLight: rgba(195, 195, 195, 0.36);
+$disableColorBg: rgba(211, 211, 211, 0.3);
+$activeColorBg: #E0EBFE;
+$borderColor: rgba(165, 165, 165, 0.3);
+$textColor: #ffffff;
+$modalColorBg: #ffffff;
+$tableRowColorBg: #ffffff;
+$dividerColor: #5290FF;
+$buttonPrimary: #007bff;
+$input: #E0EBFE;
+$tableHeaderBg: #333;
+
+// theme variables
+$themes: (
+        light: (
+                primary: #7366FF,
+                secondary: #ffffff,
+                bgColor: #F5F4F9,
+                txtColor: #333,
+                barBg: #ffffff,
+                border: #CACACA,
+                buttonDefault: #ffffff,
+                shadowColorBlack: rgba(0, 0, 0, 0.25),
+                inputBg: #E0EBFE,
+                inputlabel: #535353,
+                tableBorder: rgba(165, 165, 165, 0.3)
+
+        ),
+        dark: (
+                primary: #588DED,
+                secondary: #19181B,
+                bgColor: #121212,
+                txtColor: #ffffff,
+                barBg: #161a26,
+                border: #393939,
+                buttonDefault: #000000,
+                shadowColorBlack: #222326,
+                inputBg: #222833,
+                inputlabel: #656565,
+                tableBorder: #27354e,
+        )
+);

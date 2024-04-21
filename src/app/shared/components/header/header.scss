@@ -1,0 +1,81 @@
+@import "../../../../scss/variables";
+
+:root {
+  .MuiAppBar-root {
+    box-shadow: 0 0 11px 3px rgba(115, 102, 255, 0.12);
+  }
+}
+
+header {
+  @include themify($themes) {
+    background: themed("barBg");
+  }
+
+  .navMenuItems {
+    @include themify($themes) {
+      color: themed("txtColor");
+    }
+  }
+
+  .MuiTypography-root {
+    @include themify($themes) {
+      color: themed("txtColor")
+    }
+  }
+
+  .css-i4bv87-MuiSvgIcon-root {
+    @include themify($themes) {
+      fill: themed("txtColor")
+    }
+  }
+}
+.nxusLogo{
+  height:45px
+}
+.theme-light {
+  .theme-change-icon {
+
+    background-image: url('../../../assets/images/bytesize_moon.svg');
+
+  }
+}
+
+.theme-dark {
+  .theme-change-icon {
+
+    background-image: url('../../../assets/images/eva_sun-fill.svg');
+
+  }
+}
+
+.notification-icon {
+  background-image: url('../../../assets/images/carbon_notification.svg');
+
+}
+
+.user-icon {
+  background-image: url('../../../assets/images/carbon_user-avatar-filled-alt.svg');
+}
+
+.notification-menu{
+  .MuiPaper-root{
+    width: 350px;
+    .MuiList-root{
+      padding-top: 0;
+    }
+    .notification-header{
+        background-color: #7366ff2e;
+        display: flex;
+        padding: 15px 15px;
+        margin-bottom: 15px;
+        justify-content: space-between;
+      .notification-label{
+        font-size: 16px;
+        margin-bottom: 0;
+        color: #333;
+      }
+    }
+    
+  }
+ 
+}

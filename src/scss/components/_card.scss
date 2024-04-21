@@ -1,0 +1,56 @@
+@import "../variables";
+
+// .MuiCard-root {
+//   height: calc(100vh - 140px);
+//   padding: 15px;
+//   @include themify($themes) {
+//     background-color: themed("barBg");
+//     color: themed("txtColor");
+//   }
+// }
+// .pharmacies-admin-card.MuiPaper-root{
+//   height: 100%;
+//   padding: 0;
+//   background-color: transparent;
+//   box-shadow: none;
+//   .admin-card-header{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//   }
+//   .MuiCardContent-root{
+//     padding: 0;
+//   }
+//   .MuiCardActions-root{
+//     background-color: rgba(115, 102, 255, 0.1);
+//     margin: 10px 0;
+//     padding: 10px;
+//     justify-content: flex-end;
+//     border-radius: 4px;
+//   }
+// }
+.admin-card{
+  // display: flex;
+  // flex-direction: column;
+  padding: 10px;
+  // height: calc(100vh - 112px);
+  // height: 100%;
+  .admin-card-header{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    .MuiTypography-root{
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-bottom: 10px;
+    }
+  }
+  .MuiCardActions-root{
+    // background-color: rgba(115, 102, 255, 0.1);
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: flex-end;
+    border-radius: 4px;
+  }
+}

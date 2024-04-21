@@ -1,0 +1,26 @@
+:root {
+    .nuxus-bg {
+        background-image: url('../../../assets/images/nuxus-background.png');
+        background-repeat: no-repeat;
+        background-size: 100% 550px;
+        background-attachment: fixed;
+    }
+}
+.logo{
+    height:80px;
+    margin-right: 847px;
+}
+.text-auth{
+    color: #FFFF;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    line-height: 42px;
+}
+.signUpcontainer{
+    background: #fff;
+    box-shadow: 0 1px 15px 2px rgba(132, 163, 220, 0.26);
+    border-radius: 10px;
+    padding: 30px 10px;
+    max-width: 450px;
+}

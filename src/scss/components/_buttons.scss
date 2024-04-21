@@ -1,0 +1,37 @@
+@import '../variables';
+
+:root {
+  .MuiButton-containedSizeMedium {
+    border-radius: 6px!important;
+    padding: 8px 27px;
+  }
+
+  .css-um86gc-MuiButtonGroup-root .MuiButtonGroup-grouped {
+    &:not(:last-of-type), &:not(:first-of-type) {
+      border-radius: 6px;
+    }
+  }
+}
+
+
+.MuiButton-containedSizeMedium.containedPrimary {
+  color: $textColor;
+  background-color: $buttonPrimary;
+  @include themify($themes) {
+    box-shadow: 0 4px 4px 0 themed("shadowColorBlack");
+  }
+
+}
+
+.containedDefault {
+  @include themify($themes) {
+    background: themed("buttonDefault");
+    color: themed("txtColor");
+    box-shadow: 0 2px 6px 1px themed("shadowColorBlack");
+
+  }
+}
+
+.MuiButton-textPrimary {
+  color: $primary;
+}

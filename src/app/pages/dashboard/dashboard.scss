@@ -1,0 +1,43 @@
+.admin-card-order.MuiCard-root {
+  // height: calc(25vh - 140px) !important;
+  max-height: 85px;
+  background-color: #ffff !important;
+  padding: 20px !important;
+}
+
+.admin-card-revenue.MuiCard-root {
+  // height: calc(80vh - 140px) !important;
+  border-radius: 10px !important;
+  height: 430px !important;
+  // margin-top: 10px !important;
+  // margin-left: 20px !important;
+  background-color: #ffff !important;
+  padding: 10px !important;
+}
+
+.admin-card-sales.MuiCard-root {
+  // height: calc(80vh - 140px) !important;
+  border-radius: 10px !important;
+  height: 430px !important;
+  // margin-top: 10px !important;
+  // margin-left: 20px !important;
+  background-color: #ffff !important;
+  padding: 10px !important;
+}
+
+.selectLimit {
+  height: 36px;
+}
+
+.cusProductName {
+  background: #f3f5f7;
+  text-align: center;
+  border-radius: 4px;
+  width: 100px;
+  padding: 10px;
+  p {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: cursive !important;
+  }
+}
